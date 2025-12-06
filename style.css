@@ -1,0 +1,76 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #89CFF0, #6A5ACD);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        width: 330px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 25px;
+        border-radius: 16px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        backdrop-filter: blur(12px);
+    }
+
+    h1 {
+        margin-top: 0;
+        font-size: 20px;
+        color: rgb(18, 18, 82);
+    }
+
+    input {
+        padding: 8px;
+        width: 140px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 8px;
+    }
+
+    button {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        background: linear-gradient(to right, #6a5ffd, #4e3ed6);
+        color: white;
+
+        transition: transform 0.15s ease, box-shadow 0.2s ease;
+    }
+
+       button:hover:not(:disabled) {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+
+    button:disabled {
+        background: rgba(255,255,255,0.3);
+        color: #ddd;
+        cursor: not-allowed;
+    }
+
+    .small-btn {
+        background: rgba(255, 255, 255, 0.35);
+        color: #333;
+        margin-top: 10px;
+    }
+    .small-btn:hover:not(:disabled) {
+        background: rgba(255, 255, 255, 0.45);
+    }
+
+    #timeDisplay {
+        font-size: 36px;
+        margin-top: 20px;
+        font-weight: bold;
+         color: #ffffff;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+        letter-spacing: 2px;
+    }
+
